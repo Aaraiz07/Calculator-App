@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ExK-Rb-RYR">
     <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -10,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="QRR-fS-4gT">
             <objects>
-                <viewController id="ExK-Rb-RYR" customClass="ViewController" customModule="Calculator_Layout_iOS13" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="ExK-Rb-RYR" customClass="ViewController" customModule="Calculator" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vu2-1c-cfm">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,6 +314,9 @@
                             <constraint firstItem="Qy1-KM-bqO" firstAttribute="top" secondItem="9I7-js-huu" secondAttribute="top" id="coB-jS-L4u"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="view" destination="Vu2-1c-cfm" id="x4T-s5-X1w"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Suj-vi-fhP" sceneMemberID="firstResponder"/>
             </objects>
